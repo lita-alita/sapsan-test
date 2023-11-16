@@ -10,8 +10,8 @@ export default function ImageCard({ src, alt, miniSrc}: IPropImageCard) {
     return (
         <Image
             src={miniSrc}
-            width={500}
-            height={500}
+            width={204}
+            height={204}
             alt={alt}
         />
     )
