@@ -12,6 +12,17 @@
 .queryResults img {
   border-radius: 4px;
   border: 1px solid #ebebeb;
+  cursor: pointer;
+}
+
+.spiner {
+  position: fixed;
+  margin: 0 auto;
+  top: 50vh;
+  animation-name: spiner-rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 /* Mobile */
@@ -19,5 +30,15 @@
   .queryResults img {
     width: 114px;
     height: 114px;
+  }
+}
+
+@keyframes spiner-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
