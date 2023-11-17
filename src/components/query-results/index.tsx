@@ -38,5 +38,9 @@ export default function QueryResults({ query }: IPropQueryResults) {
 
         )
     }
+
+    if (isError) {
+        return <p className={style.errorMessage}>К сожалению, поиск не дал результатов</p>
+    }
     return <div></div>
 }
