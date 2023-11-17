@@ -84,7 +84,6 @@
 (min-resolution: 2dppx) {
   .searchBar {
     width: 100%;
-    background-color: #eb0c0c;
     justify-content: stretch;
   }
 }
