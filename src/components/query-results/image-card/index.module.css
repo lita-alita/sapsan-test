@@ -16,3 +16,10 @@
     height: 114px;
   }
 }
+
+@media (max-width: 389px) {
+  .imageCard {
+    width: 100px;
+    height: 100px;
+  }
+}

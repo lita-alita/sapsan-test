@@ -33,6 +33,12 @@
   }
 }
 
+@media (max-width: 389px) {
+  .main {
+    padding: 10px;
+  }
+}
+
 @keyframes rotate {
   from {
     transform: rotate(360deg);

@@ -66,5 +66,15 @@
   font-weight: 400;
   line-height: normal;
 
-  cursor: pointer
+  cursor: pointer;
+}
+
+@media (max-width: 389px) {
+  .searchBar_inputBlock {
+    max-width: 20rem;
+  }
+
+  .searchBar_inputBlock__button {
+    padding: 0.2rem 0.5rem;
+  }
 }
