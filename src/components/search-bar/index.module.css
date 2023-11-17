@@ -72,5 +72,6 @@
 @media (max-width: 389px) {
   .searchBar {
     width: 100%;
+    background-color: #eb0c0c;
   }
 }
