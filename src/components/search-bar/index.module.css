@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: flex-end;
   gap: 0.5rem;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .searchBar_inputBlock {
@@ -15,7 +15,8 @@
   padding: 0.75rem 0.5rem;
   align-items: center;
   gap: 0.25rem;
-  flex-shrink: 0;
+  flex-shrink: 1;
+  flex-grow: 1;
 
   border-radius: 0.75rem;
   background: #eee;
@@ -37,6 +38,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  flex-shrink: 1;
 }
 
 .searchBar_inputBlock__button {
@@ -54,6 +56,9 @@
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+
 
   border-radius: 0.75rem;
   background: #eb0c0c;
@@ -69,12 +74,10 @@
   cursor: pointer;
 }
 
-@media (max-width: 389px) {
-  .searchBar_inputBlock {
-    max-width: 20rem;
-  }
-
-  .searchBar_inputBlock__button {
-    padding: 0.2rem 0.5rem;
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+  .searchBar {
+    width: 90%;
   }
 }
