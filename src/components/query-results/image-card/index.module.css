@@ -1,0 +1,18 @@
+.unscrolled {
+  overflow: hidden;
+  height: 80vh !important;
+}
+
+.imageCard {
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .imageCard {
+    width: 114px;
+    height: 114px;
+  }
+}

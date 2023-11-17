@@ -23,7 +23,7 @@ export default function QueryResults({ query }: IPropQueryResults) {
     const { result, isLoading, isError } = useQuery(query === "" ? null : query)
 
     if (result) return (
-        <div className={style.queryResults}>
+        <div className={style.queryResults} id="queryResults">
             {result.results.map((res: any) => {
                 return <ImageCard src={res.urls.full} alt={res.alt_description} miniSrc={res.urls.small} key={res.id} />
             })}
