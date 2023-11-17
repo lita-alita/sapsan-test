@@ -75,3 +75,13 @@
     background-color: #eb0c0c;
   }
 }
+
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+  .searchBar {
+    width: 100%;
+    background-color: #eb0c0c;
+  }
+}
