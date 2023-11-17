@@ -7,19 +7,27 @@
   border-radius: 4px;
   border: 1px solid #ebebeb;
   cursor: pointer;
+  min-width: 204px;
+  min-height: 204px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  aspect-ratio: 1 / 1;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
   .imageCard {
-    width: 114px;
-    height: 114px;
+    min-width: 114px;
+    min-height: 114px;
+    height: auto;
+    width: 30%;
   }
 }
 
-@media (max-width: 389px) {
+@media (max-width: 389px), (-webkit-max-device-pixel-ratio: 1),
+(max-resolution: 2dppx) {
   .imageCard {
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
   }
 }

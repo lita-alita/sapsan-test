@@ -28,6 +28,7 @@ export default function SearchBar({ searchHandler }: IPropSearchBar) {
                     e.currentTarget.parentElement?.style.setProperty("height", "auto") 
                     e.currentTarget.parentElement?.style.setProperty("align-self", "flex-start") 
                     e.currentTarget.parentElement?.style.setProperty("padding-left", "0") 
+                    e.currentTarget.parentElement?.style.setProperty("justify-content", "stretch") 
                     searchHandler(searchQuery)
                 }}>Искать</button>
         </div>
