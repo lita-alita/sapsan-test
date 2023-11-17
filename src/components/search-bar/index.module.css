@@ -16,6 +16,7 @@
   align-items: center;
   gap: 0.25rem;
   flex-shrink: 0;
+  flex-grow: 1;
 
   border-radius: 0.75rem;
   background: #eee;
@@ -54,6 +55,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
+  flex-grow: 1;
 
   border-radius: 0.75rem;
   background: #eb0c0c;
@@ -83,5 +85,6 @@
   .searchBar {
     width: 100%;
     background-color: #eb0c0c;
+    justify-content: stretch;
   }
 }
