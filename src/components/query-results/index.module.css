@@ -1,6 +1,7 @@
 .queryResults {
   display: flex;
   height: fit-content;
+  overflow: scroll;
   width: 100%;
   align-items: center;
   justify-content: space-between;
